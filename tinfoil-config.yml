@@ -1,0 +1,11 @@
+shim-version: v0.1.1@sha256:fcd0ba0ea3f0ca26d92595ea90f28308cfba819e3243925892e6c8f21eb1397d
+cvm-version: 0.1.2
+ovmf-version: 0.0.2
+cpus: 8
+memory: 65536
+
+shim:
+  listen-port: 443
+  upstream-port: 8080
+  tls-mode: staging
+  tls-challenge: dns
